@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 600px;
+  width: 1400px;
+  gap: 5px;
+}
+.item {
+  background-color: lightslategray;
+  text-align: center;
+  color: aliceblue;
+  width: 200px;
+}
+.item1 {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item2 {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item3 {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item4 {
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item5 {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item6 {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

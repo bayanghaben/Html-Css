@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <h1>Regestration Form</h1>
+  </head>
+  <style>
+    label {
+      display: inline-block;
+      width: 90px;
+    }
+    form {
+      text-align: center;
+    }
+    legend {
+      text-align: left;
+    }
+  </style>
+  <body>
+    <form action="#" style="margin: auto; width: 900px">
+      <fieldset style="background-color: rgb(237, 219, 197)">
+        <legend>Personal Details.</legend>
+        <label for="name" class="label">First Name</label>
+        <input type="text" id="first name" />
+        <br /><br />
+        <label for="name" class="label">Last Name</label>
+        <input type="text" id="last name" />
+        <br /><br />
+        <label for="email" class="label"> Email</label>
+        <input type="email" id="email" /><br /><br />
+
+        <label for="gender">Gender</label>
+
+        <input type="radio" id="female" name="gender" value="Female" />
+        <label for="female"> Female</label>
+
+        <input type="radio" id="male" name="gender" value="Male" />
+        <label for="male"> Male</label>
+      </fieldset>
+    </form>
+    <form action="#" style="margin: auto; width: 900px">
+      <fieldset style="background-color: rgb(237, 219, 197)">
+        <legend>City</legend>
+        <label for="city"> City</label>
+        <select id="city">
+          <option>Amman</option>
+          <option>Zarqa</option>
+        </select>
+      </fieldset>
+    </form>
+    <input type="button" value="Subscribe" />
+  </body>
+</html>

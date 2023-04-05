@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <h1>Destint Appointment Reservertion Form</h1>
+  </head>
+
+  <style>
+    h1 {
+      color: blue;
+      font-size: xx-large;
+      font-weight: 500;
+    }
+    form {
+      text-align: center;
+      color: blue;
+    }
+
+    .date {
+      color: gray;
+    }
+  </style>
+  <body>
+    <form>
+      <h2>*Mandatory Feilds</h2>
+      <br />
+      <label for="Name">Full Name*</label> <br />
+      <input
+        type="text"
+        id="name"
+        placeholder="FirstName LastName"
+        required
+      /><br /><br />
+      <label for="email">Email Adress*</label><br />
+      <input
+        type="email"
+        id="email"
+        placeholder="ahmedmd@****.com"
+        required
+      /><br /><br />
+      <label for="type">Select the needed service*:</label><br />
+      <select id="type" required>
+        <option>Whitening</option>
+        <option>cleaning</option>
+      </select>
+      <br /><br />
+      <label>Appointment date*:</label><br />
+      <input class="date" type="date" /> <br />
+      <br />
+      <label for="time">Appointment time*:</label><br />
+      <input class="date" type="time" /> <br /><br />
+      <label>Doctor's preferred gender*: </label><br />
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label><br />
+      <input type="radio" name="gender" id="male" />
+      <label for="male">male</label><br /><br />
+      <label for="note">Special Note</label> <br />
+      <textarea
+        name="note"
+        id="note"
+        cols="30"
+        rows="10"
+        placeholder="Enter your text here"
+      ></textarea
+      ><br /><br />
+      <label> terms & conditions*</label><br />
+      <input type="radio" name="agreement" id="agree" />
+      <label for="agree">I Agree</label>
+      <input type="radio" name="agreement" id="disagree" />
+      <label for="disagree">I disagree</label><br /><br />
+      <button>Complete Reservation</button>
+    </form>
+  </body>
+</html>

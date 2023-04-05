@@ -1,0 +1,20 @@
+.green {
+  height: 100px;
+  width: 100px;
+  background-color: #a9bdbe;
+  display: inline-block;
+  position: relative;
+  border: 1px solid black;
+  left: 30px;
+}
+
+.black {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(252, 210, 236);
+  display: inline-block;
+  position: relative;
+  border: 1px solid black;
+  top: 60px;
+  left: 30px;
+}

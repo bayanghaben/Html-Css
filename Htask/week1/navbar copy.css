@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav ul li{
+
+}
+.header {
+  background-color: rgb(107, 182, 146);
+  height: 50px;
+  
+  border-bottom: 2px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  overflow: hidden;
+  font-size: larger;
+  font-family: sans-serif;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.button {
+  box-shadow: 1px 3px 3px 1px;
+  align-self: center;
+  justify-self: center;
+  text-transform: uppercase;
+  font-weight: 550;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/* Nav links style*/
+a:link,
+a:visited {
+  color: darkblue;
+}
+
+a:hover {
+  color: gold;
+}
+a:active {
+  color: darkblue;
+}
+a {
+  text-decoration: none;
+}
+
+/*Dropdown Servise List*/
+
+.dp_content {
+  display: none;
+  background-color: rgb(107, 182, 146);
+  width: 120px;
+  position: absolute;
+  z-index: 10;
+  padding: 10px;
+}
+.dp_content a {
+  color: darkblue;
+  text-decoration: none;
+}
+.dp_content a:hover {
+  background-color: rgb(107, 182, 146);
+}
+.dp_serlist:hover .dp_content {
+  
+  display:flex ;
+  flex-direction: column;
+  gap: 10px;
+}
+}
+.dp_content:hover .dp_content {
+  display:flex ;
+  flex-direction: column;
+  gap: 10px;
+}
