@@ -1,0 +1,44 @@
+:root {
+  --beech: #ff9b6d;
+  --yellow: #ffd37c;
+  --light-green: #c8d778;
+  --dark-green: #7dbca9;
+  --blue: #87ceea;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 1fr 4fr;
+  gap: 5px;
+  margin: 130px;
+  width: 1000px;
+}
+.num {
+  background-color: brown;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  color: #fff;
+  text-transform: capitalize;
+}
+.num-1 {
+  background-color: var(--beech);
+  grid-area: 1/1/4/2;
+}
+.num-2 {
+  background-color: var(--yellow);
+  grid-area: 1/2/2/4;
+}
+.num-3 {
+  background-color: var(--light-green);
+  grid-area: 2/2/3/3;
+}
+.num-4 {
+  background-color: var(--dark-green);
+  grid-area: 2/3/3/4;
+}
+.num-5 {
+  background-color: var(--blue);
+  grid-area: 3/2/4/4;
+}
